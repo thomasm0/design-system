@@ -1,0 +1,13 @@
+site_name: 'design-system'
+site_description: 'The guide for the user interfaces of all digital products and services provided by the City of Amsterdam.'
+plugins:
+  - techdocs-core
+docs_dir: 'documentation'
+nav:
+  - Code Reviews: code-reviews.md
+  - Component Docs: component-docs.md
+  - Definition of Done: definition-of-done.md
+  - Git: git.md
+  - Maintainers: maintainers.md
+  - Publishing: publishing.md
+  - Storybook: storybook.md

@@ -1,0 +1,21 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: design-system
+  description: The guide for the user interfaces of all digital products and services provided by the City of Amsterdam.
+  tags: [nodejs, react, storybook, shared-component, typescript]
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: amsterdam/design-system
+  links:
+    - url: https://designsystem.amsterdam/
+      title: designsystem.amsterdam
+      icon: launch
+    - url: https://github.com/amsterdam/design-system
+      title: GitHub Repo
+      icon: github
+spec:
+  type: service
+  lifecycle: production
+  owner: dii-design-system
