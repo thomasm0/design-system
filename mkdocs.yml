@@ -4,6 +4,7 @@ plugins:
   - techdocs-core
 docs_dir: 'documentation'
 nav:
+  - Readme: index.md
   - Code Reviews: code-reviews.md
   - Component Docs: component-docs.md
   - Definition of Done: definition-of-done.md
